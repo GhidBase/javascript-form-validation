@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Veritas Apartments</h1>
+    </header>
+    <div class="middle-row">
+      <div class="sidebar">
+        <ul>
+            <li>Random thing</li>
+            <li>Random thing</li>
+            <li>Random thing</li>
+            <li>Random thing</li>
+            <li>Random thing</li>
+            <li>Random thing</li>
+            <li>Random thing</li>
+            <li>Random thing</li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <h1>Apply for an apartment today!</h1>
+        <p>First, make an account:</p>
+        <form novalidate>
+            <p>
+                <p class="label">Email</p>
+                <input type="email">
+                <span class="error"></span>
+            </p>
+            <p>
+                <p class="label">Zip:</p>
+                <input type="text">
+                <span class="error"></span>
+            </p>
+            <p>
+                <p class="label">Country:</p>
+                <input type="text">
+                <span class="error"></span>
+            </p>
+            <p>
+                <p class="label">Password:</p>
+                <input type="text">
+                <span class="error"></span>
+            </p>
+            <p>
+                <p class="label">Confirm Password:</p>
+                <input type="text">
+                <span class="error"></span>
+            </p>
+            <button>Submit</button>
+        </form>
+      </div>
+      <div class="right-sidebar"></div>
+    </div>
+    <footer></footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
+<!--
+    NEEDS:
+         - Email
+         - Zip
+         - Country
+         - Password
+         - Password Confirmation
+    
+         - Set the form with novalidate
+         - This will allow me to do all
+        the validation manually
+
+         - Use psuedoclasses:
+             - :valid
+             - :invalid
+
+         - Highlight a field red and
+        provide a helpful error message
+        until it's filled in properly
+
+         - How do I display the error
+        messages? put a span element
+        right after with class "error".
+        target it with:
+        #maintarget + span.error
+-->
